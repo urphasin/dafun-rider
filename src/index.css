@@ -3,29 +3,40 @@
 @theme {
   --color-brandBlue: #00AEEF;
   --color-brandOrange: #FF6B00;
+
   --color-brandPrimaryTextLight: #1F2937;
   --color-brandPrimaryTextDark: #F3F4F6;
+
   --color-brandSecondaryTextLight: #6B7280;
   --color-brandSecondaryTextDark: #9CA3AF;
 }
 
+/* Global Styles */
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  /* Colors */
+  /* Base colors for raw CSS and JS use */
   --bg-light: #F9FAFB;
   --bg-dark: #1A1B22;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #F9FAFB;
+  background-color: var(--bg-light);
+  color: var(--color-brandPrimaryTextLight);
+
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Mode Root*/
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--color-brandPrimaryTextDark);
 }
 
 
