@@ -31,3 +31,5 @@ We want to balance **fun**, **trust**, and **tech-savvy** energy.
 - **Dark mode**:  
   - Background: `#1A1B22`  
   - Keep orange/blue with **neon-style** emphasis
+
+
