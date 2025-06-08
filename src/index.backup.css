@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  darkMode: 'class'; 
+  darkMode: 'class', // ✅ required
   
   --color-brandBlue: #00AEEF;
   --color-brandOrange: #FF6B00;
