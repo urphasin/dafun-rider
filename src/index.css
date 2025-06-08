@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  darkMode: 'class'; 
+  /* darkMode: 'class';  */
   
   --color-brandBlue: #00AEEF;
   --color-brandOrange: #FF6B00;
@@ -11,6 +11,9 @@
 
   --color-brandSecondaryTextLight: #6B7280;
   --color-brandSecondaryTextDark: #9CA3AF;
+
+  --color-backgroundLight: #F9FAFB;
+  --color-backgroundDark: #1A1B22;
 }
 
 /* Global Styles */
@@ -24,7 +27,7 @@
   --bg-dark: #1A1B22;
 
   color-scheme: light dark;
-  background-color: var(--bg-light);
+  background-color: var(--color-backgroundLight);
   color: var(--color-brandPrimaryTextLight);
 
   
