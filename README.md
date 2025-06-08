@@ -3,6 +3,8 @@
 I am using:
 
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- TailwindCSS
+- React Router V7
 
 Welcome! This project is the frontend for a ride-sharing app built with React and Vite. It will communicate with a C++ backend via REST APIs.
 
