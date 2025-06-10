@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
-@theme {
-  @custom-variant dark (&:is(.dark *)); /* ✅ required Enable dark mode styles */
+@custom-variant dark (&:is(.dark *)); /* ✅ required Enable dark mode styles */
 
+
+@theme {
   
   --color-brandBlue: #00AEEF;
   --color-brandOrange: #FF6B00;

@@ -10,6 +10,7 @@ export default function useDarkMode() {
     const root = document.documentElement;
     if (isDark === true) {
       root.classList.add("dark");
+      localStorage.setItem("theme", "dark");
     }
     else {
       root.classList.remove("dark");
